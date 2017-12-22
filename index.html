@@ -1,5 +1,14 @@
 <html>
 <script src="http://maps.google.com/maps/api/js?sensor=true">
+function initialize() {
+  var latlng = new google.maps.LatLng(35.710333,139.777148);
+  var myOptions = {
+    zoom: 18, /*拡大比率*/
+    center: latlng, /*表示枠内の中心点*/
+    mapTypeId: google.maps.MapTypeId.ROADMAP/*表示タイプの指定*/
+  };
+  var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+}
 </script>
 <body onload="initialize();">
 <div id="map_canvas" style="width:100%;height:500px;"></div>
