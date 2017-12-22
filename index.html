@@ -1,18 +1,22 @@
 <html>
+<head>
+  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  MAP
+</head>
+
 <body onload="initialize();">
-  <script src="http://maps.google.com/maps/api/js?sensor=true">
-  </script>
+
   <script type="text/javascript">
   function initialize() {
-    var latlng = new google.maps.LatLng(35.710333,139.777148);
+    var latlng = new google.maps.LatLng(35.415272, 136.758887); //緯度・経度
     var myOptions = {
-      zoom: 18, /*拡大比率*/
-      center: latlng, /*表示枠内の中心点*/
-      mapTypeId: google.maps.MapTypeId.ROADMAP/*表示タイプの指定*/
+      zoom: 18, //拡大倍率
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP //地図の種類
     };
-    var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); //地図を表示
   }
   </script>
-<div id="map_canvas" style="width:100%;height:500px;"></div>
+  <div id="map_canvas" style="width:100%; height:90%;"></div>
 </body>
 </html>
