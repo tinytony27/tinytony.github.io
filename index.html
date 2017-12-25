@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-<script type="text/javascript">
-  function initMap() {
-    var opts = {
-      zoom: 15,
-      center: new google.maps.LatLng(34.6468834,135.5128276)
-    };
-    var map = new google.maps.Map(document.getElementById("map"), opts);
-  }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCivUKZHwa-xuz_yvGZImjXvJ_Zkz4RmN0&callback=initMap"></script>
 
 <head>
   <meta charset="utf-8">
@@ -20,6 +10,16 @@
   <p>地図です。</p>
   <div id="map" style="width:640px; height:640px;"></div>
 
+  <script type="text/javascript">
+    function initMap() {
+      var opts = {
+        zoom: 15,
+        center: new google.maps.LatLng(34.6468834,135.5128276)
+      };
+      var map = new google.maps.Map(document.getElementById("map"), opts);
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCivUKZHwa-xuz_yvGZImjXvJ_Zkz4RmN0&callback=initMap"></script>
 </body>
 
 </html>
