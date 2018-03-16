@@ -37,6 +37,10 @@
 var video = document.getElementById("video");           // video 要素を取得
 var canvas = document.getElementById("canvas");         // canvas 要素の取得
 var context = canvas.getContext("2d");                  // canvas の context の取得
+var stampNose = new Image();                            // ★鼻のスタンプ画像を入れる Image オブジェクト
+var stampEars = new Image();                            // ★耳のスタンプ画像を入れる Image オブジェクト
+stampNose.src = "nose.png";                             // ★鼻のスタンプ画像のファイル名
+stampEars.src = "ears.png";                             // ★耳のスタンプ画像のファイル名
 
 // getUserMedia によるカメラ映像の取得
 var media = navigator.mediaDevices.getUserMedia({       // メディアデバイスを取得
@@ -59,6 +63,8 @@ function drawLoop() {
   showData(positions);                                  // データの表示
   context.clearRect(0, 0, canvas.width, canvas.height); // canvas をクリア
   tracker.draw(canvas);                                 // canvas にトラッキング結果を描画
+  drawStamp(positions, stampNose, 62, 2.5, 0.0, 0.0);   // ★鼻のスタンプを描画
+  drawStamp(positions, stampEars, 33, 3.0, 0.0, -1.8);  // ★耳のスタンプを描画
 }
 drawLoop();                                             // drawLoop 関数をトリガー
 
