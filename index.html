@@ -68,16 +68,17 @@ function drawLoop() {
 }
 drawLoop();                                             // drawLoop 関数をトリガー
 
-// 顔部品（特徴点）の位置データを表示する showData 関数
-function showData(pos) {
-  var str = "";                                         // データの文字列を入れる変数
-  for(var i = 0; i < pos.length; i++) {                 // 全ての特徴点（71個）について
-    str += "特徴点" + i + ": ("
-         + Math.round(pos[i][0]) + ", "                 // X座標（四捨五入して整数に）
-         + Math.round(pos[i][1]) + ")<br>";             // Y座標（四捨五入して整数に）
-  }
-  var dat = document.getElementById("dat");             // データ表示用div要素の取得
-  dat.innerHTML = str;                                  // データ文字列の表示
+// ★スタンプを描く drawStamp 関数
+// (顔部品の位置データ, 画像, 基準位置, 大きさ, 横シフト, 縦シフト)
+function drawStamp(pos, img, bNo, scale, hShift, vShift) {
+  var eyes = pos[32][0] - pos[27][0];                   // 幅の基準として両眼の間隔を求める
+  var nose = pos[62][1] - pos[33][1];                   // 高さの基準として眉間と鼻先の間隔を求める
+  var wScale = eyes / img.width;                        // 両眼の間隔をもとに画像のスケールを決める
+  var imgW = img.width * scale * wScale;                // 画像の幅をスケーリング
+  var imgH = img.height * scale * wScale;               // 画像の高さをスケーリング
+  var imgL = pos[bNo][0] - imgW / 2 + eyes * hShift;    // 画像のLeftを決める
+  var imgT = pos[bNo][1] - imgH / 2 + nose * vShift;    // 画像のTopを決める
+  context.drawImage(img, imgL, imgT, imgW, imgH);       // 画像を描く
 }
 </script>
 </body>
