@@ -1,4 +1,8 @@
-<header class="fixed w-full">
+<script setup lang="ts">
+</script>
+
+<template>
+<header class="fixed w-full z-40">
     <div class="bg-yellow-100 h-16 flex justify-center items-center">
         <span class="mr-16">
             <a href="#about">
@@ -34,3 +38,7 @@
         </span>
     </div>
 </header>
+</template>
+
+<style>
+</style>
