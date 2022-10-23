@@ -3,30 +3,17 @@
 
 <template>
 <div id="works" class="h-screen w-full relative bg-green-100">
-    <div class="w-96 h-96 top-0 left-0 right-0 bottom-0 m-auto absolute bg-green-200">
-        <div class="">Works</div>
-        <div class="">
-            <div>
-                <span>
-                    <a href="https://github.com/tinytony27" target="_blank">
-                        GitHub
-                        <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
-                    </a>
-                </span>
-            </div>
-            <div>
-                <span>
-                    <a href="https://zenn.dev/tinytony" target="_blank">
-                        Zenn
-                        <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
-                    </a>
-                </span>
-            </div>
+    <div class="max-w-3xl h-96 top-0 left-0 right-0 bottom-0 m-auto absolute bg-green-200">
+        <div class="w-60 m-auto text-5xl pb-10">
+            <font-awesome-icon icon="fa-solid fa-box-archive" />
+            Works
+        </div>
+        <div class="grid grid-cols-3 pb-8">
             <li><a href="https://github.com/tinytony27/tinytony.github.io" target="_blank">ポートフォリオ</a></li>
             <li><a href="https://github.com/tinytony27/web-scraping" target="_blank">Webスクレイピング</a></li>
         </div>
-        <div class="">
-            <span>その他の経験</span>
+        <div class="w-4/5 m-auto">
+            <span>その他の経歴</span>
             <li class="">
                 [2018~2019年]
                 <a href="https://www.youtube.com/c/YumenoSekaiChannel" target="_blank">

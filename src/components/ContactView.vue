@@ -3,17 +3,20 @@
 
 <template>
 <div id="contact" class="h-96 w-full bg-blue-100">
-    <div class="w-96 m-auto bg-blue-200">
-        <div class="">Contact</div>
+    <div class="max-w-3xl m-auto bg-blue-200">
+        <div class="w-60 m-auto text-5xl pb-5">
+            <font-awesome-icon icon="fa-regular fa-envelope" />
+            Contact
+        </div>
         <div class="">
-            <div>
+            <div class="text-center pb-5">
                 <span>TwitterのDMにてご連絡ください</span>
             </div>
-            <div class="w-96">
-                <div class="w-32 m-auto twitter rounded-full">
+            <div class="max-w-full">
+                <div class="w-32 m-auto bg-twitter rounded-full">
                     <a class="w-32 m-2 block" href="https://twitter.com/tiny_tony_" target="_blank">
-                        <font-awesome-icon class="w-10 text-white" icon="fa-brands fa-twitter" />
-                        <span class="w-20 text-white">Follow</span>
+                        <font-awesome-icon class="w-14 text-white" icon="fa-brands fa-twitter" />
+                        <span class="w-16 text-white">LINK</span>
                     </a>
                 </div>
             </div>
