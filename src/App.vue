@@ -1,25 +1,18 @@
-<template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
+<script setup lang="ts">
+import Top from './components/TopView.vue';
+import Profile from './components/ProfileView.vue';
+import Works from './components/WorksView.vue';
+import Contact from './components/ContactView.vue';
+import Header from './components/HeaderView.vue';
+import Footer from './components/FooterView.vue';
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<template>
+  <Header class="bg-color1"/>
+  <Top class="bg-color2"/>
+  <Profile class="bg-color2"/>
+  <Works class="bg-color2"/>
+  <Contact class="bg-color2"/>
+  <Footer class="bg-color1"/>
+</template>

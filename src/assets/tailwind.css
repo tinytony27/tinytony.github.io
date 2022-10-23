@@ -1,0 +1,41 @@
+.bg-twitter {
+    --tw-bg-opacity: 1;
+    background-color: #00acee;
+}
+
+.bg-color1 {
+    --tw-bg-opacity: 1;
+    background-color: #003a8f;
+}
+
+.bg-color2 {
+    --tw-bg-opacity: 1;
+    /* background-color: #e9edef; */
+    background-color: #fbfcf9;
+}
+
+.bg-color3 {
+    --tw-bg-opacity: 1;
+    /* background-color: #e9edef; */
+    background-color: #0061b1;
+}
+
+.text-color1 {
+    --tw-text-opacity: 1;
+    color: #003a8f;
+}
+
+.text-color2 {
+    --tw-text-opacity: 1;
+    color: #fbfcf9;
+}
+
+.border-color1 {
+    --tw-border-opacity: 1;
+    border-color: #0061b1;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
