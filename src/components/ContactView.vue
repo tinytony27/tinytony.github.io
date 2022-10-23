@@ -2,8 +2,8 @@
 </script>
 
 <template>
-<div id="contact" class="h-96 w-full bg-blue-100">
-    <div class="max-w-3xl m-auto bg-blue-200">
+<div id="contact" class="h-96 w-full">
+    <div class="max-w-3xl m-auto">
         <div class="w-60 m-auto text-5xl pb-5">
             <font-awesome-icon icon="fa-regular fa-envelope" />
             Contact

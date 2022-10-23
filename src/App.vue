@@ -9,10 +9,10 @@ import Footer from './components/FooterView.vue';
 </script>
 
 <template>
-  <Header/>
-  <Top/>
-  <Profile/>
-  <Works/>
-  <Contact/>
-  <Footer/>
+  <Header class="bg-color1"/>
+  <Top class="bg-color2"/>
+  <Profile class="bg-color2"/>
+  <Works class="bg-color2"/>
+  <Contact class="bg-color2"/>
+  <Footer class="bg-color1"/>
 </template>
