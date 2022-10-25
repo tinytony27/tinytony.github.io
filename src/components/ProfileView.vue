@@ -26,6 +26,18 @@ function nowAge(): number{
                 はじめまして。平成6年生まれ（{{nowAge()}}歳）大阪出身のエンジニア、とにぃと申します。
                 大阪大学大学院を修了。在学中にプログラミングを学びはじめ、AdnroidアプリからBackEndサーバ、Webサイトのフロント開発に携わりました。<br>
                 現在はIT企業に就職しエンジニアとコンサルタントとしてのキャリアを積みつつ、休日は趣味で作りたいものを作ってます。
+                <div>
+                    <div class="pt-3 font-bold">経験のある技術・分野</div>
+                    <div>
+                        Vue, Angular, JavaScript, TypeScript, CSS, TailwindCSS, Laravel, Java, Python, Oracle, MySQL, AWS, Unity
+                    </div>
+                </div>
+                <div>
+                    <div class="pt-3 font-bold">興味のある技術・分野</div>
+                    <div>
+                        IoT, AI, Robot, Metaverse
+                    </div>
+                </div>
                 <div class="pt-2">
                     <span>
                         <a class="text-color1" href="https://github.com/tinytony27" target="_blank">

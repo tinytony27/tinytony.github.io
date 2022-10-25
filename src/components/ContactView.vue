@@ -10,15 +10,18 @@
         </div>
         <div class="">
             <div class="text-center pb-5">
-                <span>TwitterのDMにてご連絡ください</span>
+                <div>TwitterのDMにてご連絡ください</div>
+                <div>作品の感想などもぜひお待ちしてます</div>
             </div>
             <div class="max-w-full">
-                <div class="w-32 m-auto bg-twitter rounded-full">
-                    <a class="w-32 m-2 block" href="https://twitter.com/tiny_tony_" target="_blank">
-                        <font-awesome-icon class="w-14 text-white" icon="fa-brands fa-twitter" />
-                        <span class="w-16 text-white">LINK</span>
-                    </a>
-                </div>
+                <a class="w-32 m-auto block" href="https://twitter.com/tiny_tony_" target="_blank">
+                    <div class="w-32 h-8 bg-twitter rounded-full">
+                        <div class="w-32 py-1">
+                            <font-awesome-icon class="w-16 text-white" icon="fa-brands fa-twitter" />
+                            <span class="text-white">LINK</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
