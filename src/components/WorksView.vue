@@ -34,8 +34,8 @@
             <span>その他の経歴</span>
             <li class="">
                 [2018~2019年]
-                <a href="https://www.youtube.com/c/YumenoSekaiChannel" target="_blank">
-                    Vtuberユメノセカイ
+                <a class="text-color1" href="https://www.youtube.com/c/YumenoSekaiChannel" target="_blank">
+                    <span class="font-bold">Vtuberユメノセカイ&nbsp;</span>
                     <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
                 </a>
                 の初期動画撮影Techサポート Unity使用
@@ -45,8 +45,8 @@
             </li>
             <li>
                 [2022～現在]
-                <a href="https://event-ikane.com/" target="_blank">
-                    イベント情報サイト
+                <a class="text-color1" href="https://event-ikane.com/" target="_blank">
+                    <span class="font-bold">イベント情報サイト&nbsp;</span>
                     <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
                 </a>
                 の開発 Angular+AWS使用
