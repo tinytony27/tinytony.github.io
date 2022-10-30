@@ -54,6 +54,14 @@ function nowAge(): number{
                         </a>
                     </span>
                 </div>
+                <div>
+                    <span>
+                        <a class="text-color1" href="https://twitter.com/tiny_tony_" target="_blank">
+                            <span class="font-bold">Twitter&nbsp;</span>
+                            <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
+                        </a>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
