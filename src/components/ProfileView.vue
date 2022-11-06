@@ -12,20 +12,20 @@ function nowAge(): number{
 </script>
 
 <template>
-<div id="profile" class="h-screen w-full relative">
-    <div class="max-w-3xl h-96 top-0 left-0 right-0 bottom-0 m-auto absolute">
+<div id="profile" class="sm:h-screen w-full sm:relative">
+    <div class="max-w-3xl sm:h-96 sm:top-0 sm:left-0 sm:right-0 sm:bottom-0 m-auto sm:absolute sm:py-0 py-20">
         <div class="w-60 m-auto text-5xl pb-10">
             <font-awesome-icon class="" icon="fa-regular fa-address-card" />
             Profile
         </div>
-        <div class="grid grid-cols-3">
+        <div class="sm:grid sm:grid-cols-3 bg-red-100">
             <div class="w-36 m-auto py-5">
                 <img class="w-36 h-36 rounded-full" src="@/assets/main_icon.png" alt="アイコン">
             </div>
-            <div class="col-span-2">
+            <div class="sm:col-span-2 leading-relaxed bg-blue-100 sm:p-0 p-10">
                 はじめまして。平成6年生まれ（{{nowAge()}}歳）大阪出身のエンジニア、とにぃと申します。
                 大阪大学大学院を修了。在学中にプログラミングを学びはじめ、AdnroidアプリからBackEndサーバ、Webサイトのフロント開発に携わりました。<br>
-                現在はIT企業に就職しエンジニアとコンサルタントとしてのキャリアを積みつつ、休日は趣味で作りたいものを作ってます。
+                現在はIT企業に就職しエンジニアとコンサルタントのキャリアを積みつつ、休日は趣味で作りたいものを作ってます。
                 <div>
                     <div class="pt-3 font-bold">経験のある技術・分野</div>
                     <div>
