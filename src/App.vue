@@ -1,11 +1,23 @@
-<script setup lang="ts">
+<script lang="ts">
 import Top from './components/TopView.vue';
 import Profile from './components/ProfileView.vue';
 import Works from './components/WorksView.vue';
 import Contact from './components/ContactView.vue';
 import Header from './components/HeaderView.vue';
 import Footer from './components/FooterView.vue';
+import { defineComponent } from "vue";
 
+export default defineComponent({
+  name: "App",
+  components: {
+    Top,
+    Profile,
+    Works,
+    Contact,
+    Header,
+    Footer
+  },
+});
 </script>
 
 <template>
