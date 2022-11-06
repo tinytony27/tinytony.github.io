@@ -2,13 +2,13 @@
 </script>
 
 <template>
-<div id="works" class="h-screen w-full relative">
-    <div class="max-w-3xl h-96 top-0 left-0 right-0 bottom-0 m-auto absolute">
+<div id="works" class="sm:h-screen w-full sm:relative">
+    <div class="max-w-3xl sm:h-96 sm:top-0 sm:left-0 sm:right-0 sm:bottom-0 m-auto sm:absolute sm:py-0 py-20">
         <div class="w-60 m-auto text-5xl pb-10">
             <font-awesome-icon icon="fa-solid fa-box-archive" />
             Works
         </div>
-        <div class="grid grid-cols-3 pb-8">
+        <div class="sm:grid sm:grid-cols-3 pb-8">
             <div class="w-52 h-44 m-auto">
                 <a href="https://github.com/tinytony27/tinytony.github.io" target="_blank">
                     <img class="w-52 h-32 rounded-lg border-4 border-color1" src="@/assets/github.png" alt="Github"/>
