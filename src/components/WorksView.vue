@@ -10,16 +10,22 @@
         </div>
         <div class="sm:grid sm:grid-cols-3 pb-8">
             <div class="w-52 h-44 m-auto">
-                <a href="https://github.com/tinytony27/tinytony.github.io" target="_blank">
+                <a href="https://github.com/tinytony27/tinytony.github.io" target="_blank" rel="noopener">
                     <img class="w-52 h-32 rounded-lg border-4 border-color1" src="@/assets/github.png" alt="Github"/>
                 </a>
                 <div class="h-12 pt-2 text-center">ポートフォリオ</div>
             </div>
             <div class="w-52 h-44 m-auto">
-                <a href="https://github.com/tinytony27/web-scraping" target="_blank">
+                <a href="https://github.com/tinytony27/web-scraping" target="_blank" rel="noopener">
                     <img class="w-52 h-32 rounded-lg border-4 border-color1" src="@/assets/github.png" alt="Github"/>
                 </a>
                 <div class="h-12 pt-2 text-center">Webスクレイピング</div>
+            </div>
+            <div class="w-52 h-44 m-auto">
+                <a href="https://the-only-calendar.netlify.app/" target="_blank" rel="noopener">
+                    <img class="w-52 h-32 rounded-lg border-4 border-color1" src="@/assets/calendar.png" alt="カレンダーメイカー"/>
+                </a>
+                <div class="h-12 pt-2 text-center">カレンダーメイカー</div>
             </div>
             <!--div class="w-52 h-48 m-auto">
                 <a href="" target="_blank">
@@ -45,8 +51,8 @@
             </li>
             <li>
                 [2022～現在]
-                <a class="text-color1" href="https://event-ikane.com/" target="_blank">
-                    <span class="font-bold">イベント情報サイト&nbsp;</span>
+                <a class="text-color1" href="https://waraini-ikitai.com/" target="_blank">
+                    <span class="font-bold">情報まとめサイト&nbsp;</span>
                     <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
                 </a>
                 の開発 Angular+AWS使用
