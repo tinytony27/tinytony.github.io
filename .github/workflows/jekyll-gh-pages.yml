@@ -41,8 +41,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: 'tinytony.github.io/docs'
-
+          path: '.'
   # Deployment job
   deploy:
     environment:
