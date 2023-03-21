@@ -10,9 +10,10 @@
         </div>
         <div class="">
             <div class="text-center pb-5">
-                <div>TwitterのDMにてご連絡ください</div>
-                <div>作品の感想などもぜひお待ちしてます</div>
+                <div><a href="mailto:tinytony.contact@gmail.com">メール</a>またはTwitterのDMにてご連絡ください</div>
+                <div>仕事の依頼や作品の感想など、ぜひぜひお待ちしています！！</div>
             </div>
+            
             <div class="max-w-full">
                 <a class="w-32 m-auto block" href="https://twitter.com/tiny_tony_" target="_blank">
                     <div class="w-32 h-8 bg-twitter rounded-full">
